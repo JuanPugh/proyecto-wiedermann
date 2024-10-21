@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+}
+body {
+    background-color: #17478f;
+    box-sizing: border-box;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Encabezado{
+    width: 100%;
+    height: 80px;
+    border-bottom: 2px solid #043783;
+    display: flex;
+    margin: 0;
+}
+.botones {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+	display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.botones a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    transition:.3s ease-in-out ;
+    border-radius: 50px;
+    background-color: #4240bf;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3), 
+    -4px -4px 10px rgba(255, 255, 255, 0.2);}
+.botones a:hover{
+	background: #63aee3;
+	color: #fff;
+    transform: scale(1.05);
+}
+.content{
+    width: 80vw;
+    height: 60vh;
+    margin-top: 20px;
+    border: 2px solid transparent;
+    justify-content: center;
+    display: flex;
+    border-radius: 24px;
+    background: linear-gradient(145deg, #4744cc, #3b3aac);
+    box-shadow:  6px 6px 35px #242369,
+    -6px -6px 35px #605dff;
+}
+.txt{
+    padding: 30px;
+    color: rgba(255, 255, 255, 0.822);
+    width: 30vw;
+    height: 40vh;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 68px;
+    box-shadow:  27px 27px 54px #0e2b56,
+    -27px -27px 54px #2063c8;
+    margin: auto;
+}
+.txtTitle{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom:2px solid #065cdd;
+    border-radius: 20px;
+    box-shadow:  27px 27px 54px #2660b8,
+    -27px -27px 54px #2063c8;
+}
+.footer{
+    border: 2px solid transparent;
+    margin-top: 20px;
+    width: 80vw;
+    height: 20vh;
+    border-radius: 24px;
+    background: linear-gradient(145deg, #4744cc, #3b3aac);
+    box-shadow:  6px 6px 35px #242369,
+    -6px -6px 35px #605dff;
+}
+.biografia{
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.822);
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    font-weight: bold;
+}
