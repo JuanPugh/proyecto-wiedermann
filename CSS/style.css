@@ -185,12 +185,9 @@ h1 {
 }
 
 .saturn-ring {
-
-    background-color: #ffffff;
-    width: 70px;
-    height: 70px;
-    border-radius: 70px;
-    border: 10px solid url("../img/saturn-ring.jpg");
+    background-color: transparent;
+    border: 60px solid;   
+    border-image: url("../img/saturn_ring2.png");
 }
 
 .uranus {
