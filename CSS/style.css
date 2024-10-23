@@ -7,10 +7,24 @@
     
 }   
 body {
-    background-color: #ffffff;
     
+    background-color: #ffffff;
     background-image: url("../img/bg_space2.jpg");
-    background-size: cover;
+    background-position: 0%;
+    background-attachment: fixed;
+
+    animation: bg_rotation 200s linear infinite;
+}
+
+@keyframes bg_rotation {
+
+    0%  {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 370%;
+    }
 }
 
 .container-element {
