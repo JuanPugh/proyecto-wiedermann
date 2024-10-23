@@ -41,8 +41,13 @@ body {
 }
 
 h1 {
+
+    background-color: #ffffff;
+    background-image: url("../img/bg_space.jpg");
+    background-clip: text;
+    animation: bg_rotation 90s linear infinite;
     
-    color: white;
+    color: transparent;
     font-size: 50px;
     text-align: center;
 
