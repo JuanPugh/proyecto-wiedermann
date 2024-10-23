@@ -45,12 +45,23 @@ h1 {
     background-color: #ffffff;
     background-image: url("../img/bg_space.jpg");
     background-clip: text;
-    animation: bg_rotation 90s linear infinite;
+    animation: bg_h1_rotation 50s linear infinite;
     
     color: transparent;
     font-size: 50px;
     text-align: center;
 
+}
+
+@keyframes bg_h1_rotation {
+
+    0%  {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 108%;
+    }
 }
 
 .container-planet {
