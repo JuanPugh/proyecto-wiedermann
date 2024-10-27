@@ -124,7 +124,6 @@ footer nav a {
 /*---------------------------------------------------------*/
 
 .box{
-    border: 2px solid white;
     display: flex;
     transition: all .1s ease-in-out;
     width: fit-content;
@@ -140,6 +139,7 @@ footer nav a {
 .image {
     position: relative;
     padding-right: 5px;
+    bottom: 5px;
     width: 30px;
     height: 30px;
     filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
