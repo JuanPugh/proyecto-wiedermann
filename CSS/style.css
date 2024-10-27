@@ -23,6 +23,7 @@ header {
     flex-wrap: wrap;
     position: sticky;
     top: 0;
+    z-index: 1;
 
     height: min-content;
     width: 100%;
@@ -89,6 +90,136 @@ header nav a:hover {
 }
 
 
+/*---------------------------------------------------------*/
+/*---------------------------SECTION-----------------------*/
+/*---------------------------------------------------------*/
+
+
+.content {
+    width: 80%;
+    height: min-content;
+    display: flex;
+    flex-wrap: wrap;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , 0%);
+
+    
+}
+
+.content a{
+    text-decoration: none;
+}
+
+.content a h2{
+    font-size: 180%;
+    font-weight: bold;
+}
+
+.content a p{
+    font-size: 110%;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+.cont {
+    width: 50%;
+    height: 30vh;
+
+    align-content: center;
+
+    background-color: #000000;
+    background-position: 45% 45%;
+    background-size: cover;
+
+    transition: all .5s ease-in-out;
+
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 10px #000000 , -2px -2px 10px #000000;
+
+}
+
+.cont h2 {
+    margin: 2.5% 5% 5% 5%;
+    padding-bottom: 0.5%;
+    border-bottom: 5px double white;
+}
+
+.cont:hover{
+    background-position: 5% 5%;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+.half {
+    width: 25%;
+    height: 30vh;
+
+    align-content: center;
+
+    background-color: #000000;
+    background-position: 30% 30%;
+    background-size: cover;
+
+    transition: all .5s ease-in-out;
+
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 10px #000000 , -2px -2px 10px #000000;
+
+}
+
+.half h2 {
+    margin: 5% 10% 10% 10%;
+    padding-bottom: 1%;
+    border-bottom: 5px double white;
+}
+
+.half:hover{
+    background-position: 50% 50%;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+.servicios{
+    background-image: url("../img/section/bg_space.jpg");
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+.recorridos{
+    background-image: url("../img/section/recorrido.jpg");
+    background-color: #00000025;
+    background-blend-mode: darken;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+.horarios{
+    background-image: url("../img/section/horarios.jpg");
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+.educacion{
+    background-image: url("../img/section/system_solar.jpg");
+    background-color: #00000050;
+    background-blend-mode: darken;
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+.ubicacion{
+    background-image: url("../img/section/ubicacion.jpg");
+}
+
+
+/*---------------------------------------------------------*/
+/*---------------------------FOOTER------------------------*/
 /*---------------------------------------------------------*/
 
 footer {
