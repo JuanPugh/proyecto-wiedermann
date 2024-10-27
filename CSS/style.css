@@ -58,7 +58,7 @@ h1 {
     color: white;
 }
 
-nav {
+header nav {
 
     display: flex;
     justify-content: center;
@@ -68,7 +68,7 @@ nav {
     margin-right: 2rem;
 }
 
-nav a {
+header nav a {
 
     padding: 20px;
     margin: 10px;
@@ -80,9 +80,171 @@ nav a {
     transition: all .3s ease-in-out;
 }
 
-a:hover {
+header nav a:hover {
     text-decoration: underline;
     scale: 1.3;
     color: #f7e3ca;
     
 }
+
+
+/*---------------------------------------------------------*/
+
+footer {
+    position: static;
+    grid-row: 3;
+    background-color: #0E1B19;
+
+    font-family: Rajdhani;
+}
+
+footer nav {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 20px;
+    margin: 30px 300px 10px 300px;
+}
+
+footer nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*---------------------------------------------------------*/
+
+
+.location {
+    grid-column: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .1s ease-in-out;
+}
+
+.location:hover {
+    scale: 1.3;
+    color: #ffffff;
+}
+
+.image-location {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
+}
+
+/*---------------------------------------------------------*/
+
+.number {
+    grid-column: 2; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .1s ease-in-out;
+}
+
+.number:hover {
+    scale: 1.3;
+    color: #ffffff;
+}
+
+.image-telephone {
+    position: relative;
+    width: 40px;
+    height: 30px;
+    filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
+}
+
+/*---------------------------------------------------------*/
+
+.school-page {
+    grid-column: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .1s ease-in-out;
+}
+
+.school-page:hover {
+    scale: 1.3;
+    color: #ffffff;
+}
+
+.image-escuela {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
+}
+
+/*---------------------------------------------------------*/
+
+.facebook-page {
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .1s ease-in-out;
+}
+
+.facebook-page:hover {
+    scale: 1.3;
+    color: #ffffff;
+}
+
+.image-facebook {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
+}
+
+/*---------------------------------------------------------*/
+
+.instagram-page {
+    grid-column: 2/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .1s ease-in-out;
+}
+
+.instagram-page:hover {
+    scale: 1.3;
+    color: #ffffff;
+}
+
+.image-instagram {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
+}
+
+/*---------------------------------------------------------*/
+
+.twitter-page {
+    grid-column: 4/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .1s ease-in-out;
+}
+
+.twitter-page:hover {
+    scale: 1.3;
+    color: #ffffff;
+}
+
+.image-twitter {
+    position:relative;
+    width: 30px;
+    height: 30px;
+    filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
+}
+
+/*---------------------------------------------------------*/
+
+
