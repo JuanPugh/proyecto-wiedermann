@@ -14,7 +14,8 @@ body {
 .container-element {
 
     display: grid;
-    grid-template-rows: 100px 1200px 300px;
+    grid-auto-rows: auto;
+    place-items: center;
 }
 
 header {
@@ -95,6 +96,7 @@ h1 {
 /*---------------------------------------------------------*/
 /*---------------------------SECTION-----------------------*/
 /*---------------------------------------------------------*/
+ 
 
 
 .content {
@@ -112,6 +114,8 @@ h1 {
     background: linear-gradient(to right ,  #100e17 , #383054 ,#67589d ,#100e17);
     box-shadow: 5px 5px 100px rgba(255, 255, 255, 0.177) , -5px -5px 100px rgba(255, 255, 255, 0.177);
     padding: 30px;
+    grid-row: 2;
+    padding: 100px 0px 100px 0px;
 }
 
 .content a{
