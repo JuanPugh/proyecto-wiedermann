@@ -105,17 +105,12 @@ h1 {
     display: flex;
     flex-wrap: wrap;
 
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50% , 0%);
-
     border-radius: 2%;
     background: linear-gradient(to right ,  #100e17 , #383054 ,#67589d ,#100e17);
     box-shadow: 5px 5px 100px rgba(255, 255, 255, 0.177) , -5px -5px 100px rgba(255, 255, 255, 0.177);
     padding: 30px;
     grid-row: 2;
-    padding: 100px 0px 100px 0px;
+    margin: 10% 0% 10% 0%;
 }
 
 .content a{
