@@ -7,14 +7,14 @@
 }
 
 body {
-
+    font-family: Rajdhani;
     background-color: #CCE6F4;
 }
 
 .container-element {
 
     display: grid;
-    grid-template-rows: 100px 1500px 300px;
+    grid-template-rows: 100px 1200px 300px;
 }
 
 header {
@@ -37,27 +37,6 @@ header {
     align-items: center;
 
     font-family: Rajdhani;    
-}
-
-.container-title-logo {
-    display: flex;
-    width: 40%;
-    align-items: center;
-}
-
-.logo {
-    position: relative;
-    left: 10px;
-    width: 80px;
-    height: 80px;
-    margin: 10px 25px 10px 10px;
-    filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
-}
-
-
-h1 {
-    font-size: 50px;
-    color: white;
 }
 
 header nav {
@@ -89,6 +68,28 @@ header nav a:hover {
     
 }
 
+.container-title-logo {
+    display: flex;
+    width: 40%;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    margin: 10px 25px 10px 10px;
+    filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
+}
+
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+
 
 /*---------------------------------------------------------*/
 /*---------------------------SECTION-----------------------*/
@@ -102,7 +103,7 @@ header nav a:hover {
     flex-wrap: wrap;
 
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50% , 0%);
 
@@ -205,6 +206,18 @@ header nav a:hover {
 
 /*--------------------------------------------------------------------------------------*/
 
+.ubicacion{
+    background-image: url("../img/section/ubicacion.jpg");
+}
+
+/*--------------------------------------------------------------------------------------*/
+
+.galaxias{
+    background-image: url("../img/section/vecinasGalaxias.jpg");
+}
+
+/*--------------------------------------------------------------------------------------*/
+
 .educacion{
     background-image: url("../img/section/system_solar.jpg");
     background-color: #00000050;
@@ -213,10 +226,15 @@ header nav a:hover {
 
 /*--------------------------------------------------------------------------------------*/
 
-.ubicacion{
-    background-image: url("../img/section/ubicacion.jpg");
+.productos{
+    background-image: url("../img/section/productos.jpg");
 }
 
+/*--------------------------------------------------------------------------------------*/
+
+.novedades{
+    background-image: url("../img/section/novedades.jpg");
+}
 
 /*---------------------------------------------------------*/
 /*---------------------------FOOTER------------------------*/
