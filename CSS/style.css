@@ -56,6 +56,7 @@ header nav {
     align-items: center;
     margin-right: 2rem;
     transition: all 1s cubic-bezier(0.77, 0, 0.175, 1);
+
 }
 
 .icon {
@@ -66,7 +67,7 @@ header nav {
     transition: all 1s ease;
     white-space: nowrap;
 }
-
+/*foihaudhgudifhaguihs*/
 .icon span {
     text-decoration: none;
     color: #f7e3ca;

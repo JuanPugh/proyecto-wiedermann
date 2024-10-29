@@ -17,7 +17,7 @@ body{
 }
 
 .form_container{
-    background-color: red;
+    background-color: rgb(255, 250, 238);
     padding: 30px;
     border-radius: 10px;
     box-shadow:0 4px 10px rgba(0,0,0,0.1);
@@ -29,6 +29,7 @@ body{
 
 .form_container h2{
     margin-bottom:20px;
+    font:bold 20px;
     color:#333;
     animation:fadeIn 1.2s ease-in-out;
 }
