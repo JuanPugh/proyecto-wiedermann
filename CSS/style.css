@@ -16,7 +16,14 @@ body {
     display: grid;
     grid-auto-rows: auto;
     place-items: center;
+
+    scrollbar-width: none;
 }
+
+::-webkit-scrollbar {
+    display:none;
+}
+
 
 header {
 
