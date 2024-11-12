@@ -17,6 +17,7 @@ body {
     place-items: center;
 }
 
+
 header {
 
     display: flex;
@@ -47,51 +48,19 @@ header:hover {
 
 header nav {
 
+    position: relative;
     display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    height: 100%;
-    width: 35%;
+    gap: 35px;
+    height: max-content;
+    width: 50%;
     align-items: center;
-    margin-right: 2rem;
+    justify-content: right;
     transition: all 1s cubic-bezier(0.77, 0, 0.175, 1);
 
 }
-
-.icon {
-    height: 100%;
-    width: 100%;
-    display:flex;
-    align-items: center;
-    transition: all 1s ease;
-    white-space: nowrap;
-}
-
-.icon span {
-    text-decoration: none;
-    color: #f7e3ca;
-    font-size: 40px;
-    font-weight: bolder;
-    width: 0;
-    overflow: hidden;
-    transition: all 0.3s ease-in-out;
-}
-
-.icon img {
-    width: 45px;
-    height: 40px;
-    filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
-    transition: all 0.3s ease-in-out;
-
-}
-.icon:hover span {
-    width: 100%;
-}
-
-.icon:hover img {
-    width: 0;
-}
-
+/*------------------------------------------------------------------------*/
+/*------------------------- HEADER-TITULO Y LOGO -------------------------*/
+/*------------------------------------------------------------------------*/
 
 .container-title-logo {
     display: flex;
@@ -106,12 +75,74 @@ header nav {
     height: 80px;
     margin: 10px 25px 10px 10px;
     filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
-}
 
+
+}
 
 h1 {
     font-size: 50px;
     color: white;
+}
+
+
+/*--------------------------------------------------------*/
+/*------------------------- CARD -------------------------*/
+/*--------------------------------------------------------*/
+
+.container-card {
+
+    display:flex;
+    position: relative;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+}
+
+.card {
+    position: relative;
+    display:flex;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+    transition: transform 1s;
+    justify-content: center;
+    align-items: center;
+    perspective: 600px;
+}
+
+.card img {
+
+    width: 40px;
+    height: 40px;
+    filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
+}
+
+.front-face {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.back-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color:#ffffff;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bolder;
+    margin-top: 20px;
+
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.card:hover {
+    transform: translateX(-100%) rotateY(-180deg);
 }
 
 
@@ -163,7 +194,7 @@ p {
     color: #ffffff;
 }
 
-img{
+.content img{
     height: 330px;
     width: 48%;
     padding: 15px;
@@ -208,6 +239,18 @@ img{
 
 .intro {
     background-color: #000000;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 10%;
+    }
+
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
 }
 
 
