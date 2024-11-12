@@ -253,15 +253,19 @@ h1 {
 .saturn::before {
     content:'';
     position: absolute;
-    width: 90px;
-    height: .8px;
+    width: 150px;
+    height: 30px;
+
     top: 50%;
-    left: -15px;
-    background: linear-gradient(0deg, rgba(233,211,169,1) 0%, rgba(152,158,155,0.9304096638655462) 10%, rgba(214,190,147,1) 20%, rgba(200,181,143,0.8155637254901961) 30%, rgba(155,157,140,1) 40%, rgba(171,162,132,0.8799894957983193) 50%, rgba(228,211,176,1) 60%, rgba(176,172,170,1) 70%, rgba(202,192,177,1) 80%, rgba(211,195,169,0.8715861344537815) 90%, rgba(218,197,162,1) 100%);
+    transform: translate(-30%,-50%) rotateZ(20deg);
+
+    background: radial-gradient(circle at center, transparent 30%, rgba(232, 206, 159, 0.4)), url("../img/planets/asteroids.png") center;
     
-    border: 1px solid rgba(233, 211, 169, 0.201);;
-    border-radius: 45px / 0.2px;
+    /*background: rgba(233, 211, 169, 0.508);*/
+    border-radius: 50%;
+
 }
+
 
 .uranus {
 
