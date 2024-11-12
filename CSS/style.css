@@ -46,7 +46,6 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    font-family: Rajdhani;    
 }
 
 header:hover {
@@ -55,23 +54,18 @@ header:hover {
 
 header nav {
 
-    position: relative;
     display: flex;
     gap: 35px;
-    height: max-content;
-    width: 50%;
-    align-items: center;
-    justify-content: right;
     transition: all 1s cubic-bezier(0.77, 0, 0.175, 1);
 
 }
+
 /*------------------------------------------------------------------------*/
 /*------------------------- HEADER-TITULO Y LOGO -------------------------*/
 /*------------------------------------------------------------------------*/
 
 .container-title-logo {
     display: flex;
-    width: 40%;
     align-items: center;
 }
 
@@ -82,8 +76,6 @@ header nav {
     height: 80px;
     margin: 10px 25px 10px 10px;
     filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
-
-
 }
 
 h1 {
@@ -111,8 +103,8 @@ h1 {
     width: 100%;
     height: 100%;
     cursor: pointer;
-    transform-style: preserve-3d;
-    transform-origin: center right;
+    transform-style: preserve-3d; /*hace que mantengan la posicion en el espacio tridimensional */
+    transform-origin: center right; /* define para que direccion sale el texto despues de la animacion */ 
     transition: transform 1s;
     justify-content: center;
     align-items: center;
@@ -120,14 +112,12 @@ h1 {
 }
 
 .card img {
-
     width: 40px;
     height: 40px;
     filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
 }
 
 .front-face {
-
     position: absolute;
     width: 100%;
     height: 100%;
@@ -161,7 +151,6 @@ h1 {
 
 .content {
     width: 80%;
-    height: min-content;
     display: flex;
     flex-wrap: wrap;
 
@@ -341,7 +330,6 @@ footer nav a {
 .box{
     display: flex;
     transition: all .1s ease-in-out;
-    width: fit-content;
     opacity: .5;
 }
 

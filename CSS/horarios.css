@@ -144,9 +144,8 @@ h1 {
 
 
 .container{
-    position: relative;
     flex-wrap: wrap;
-
+    position: relative;
     padding: 30px;
     margin: 10% auto;
 
@@ -222,7 +221,7 @@ h1 {
     box-shadow: 2px 2px 20px rgb(255, 255, 255 , 0.5);
 }
 
-.celda:nth-last-child(5){
+.celda:nth-last-child(5){ 
     background-image: url("../img/Horarios/bg_cols1.jfif");
     background-blend-mode: lighten;
 
