@@ -181,6 +181,7 @@ h1 {
 .tabla {
     display: grid;
     grid-template-columns: repeat(5 , 1fr);
+    grid-template-rows: auto;
     gap: 30px;
     
 }

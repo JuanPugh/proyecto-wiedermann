@@ -29,10 +29,8 @@ body {
 
 
 .title {
-    display: flex;
     height: 15vh;
-    align-items: center;
-    justify-content: center;
+    align-content: center;
 
     grid-template-rows: 200px 800px 300px;
 }
